@@ -1,2 +1,23 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div class="jumbotron">
+  <h1>Gardens on the Side</h1>
+  <p>Gardens on the Side is a resource for gardening and sharing what you grow with your friends!</p>
+  <p>
+    <%= link_to "Sign In", new_user_session_path, class: 'btn btn-primary' %> or
+    <%= link_to "Sign Up", new_user_registration_path, class: 'btn btn-primary' %> today!
+  </p>
+</div>
+
+<div class="row">
+  <div class="col-md-4">
+    <h2>Solves world hunger</h2>
+    <p>Gardens on the side will generate food for you and your loved ones.</p>
+  </div>
+  <div class="col-md-4">
+    <h2>Eliminates poverty</h2>
+    <p>Having a garden is as close as you can come to growing money.</p>
+  </div>
+  <div class="col-md-4">
+    <h2>Makes you feel better</h2>
+    <p>By growing your own food you get better nutrition and are more vibrant.</p>
+  </div>
+</div>
